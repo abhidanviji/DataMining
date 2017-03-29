@@ -1,0 +1,31 @@
+Frequent Item Sets
+------------------------------------------
+First Pass
+------------------------------------------
+sugar = 11
+plate = 8
+hanger = 13
+cornflakes = 10
+bread = 8
+frame = 11
+
+Second Pass
+------------------------------------------
+hanger,cornflakes = 9
+hanger,frame = 9
+
+Third Pass
+------------------------------------------
+
+No more Passes
+------------------------------------------
+
+Association Rule(s)
+------------------------------------------
+
+hanger=>cornflakes
+cornflakes=>hanger
+hanger=>frame
+frame=>hanger
+
+Number of Association Rule(s) - 4
